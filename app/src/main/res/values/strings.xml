@@ -1,4 +1,24 @@
 <resources>
     <string name="app_name">IP2</string>
     <string name="button.1">Operating System</string>
+    /*Buttons*/
+    <string name="BtnOption">Optionen</string>
+    <string name="BtnHighscore">Bestenliste</string>
+    <string name="BtnPlay">Spielen</string>
+    <string name="BtnMenu">Hauptmenü</string>
+    <string name="BtnAbout">Über Uns</string>
+    <string name="BtnQuit">Beenden</string>
+    /*TextViews*/
+    <string name="tvMenu">Hauptmenü</string>
+    <string name="tvOption">Optionen</string>
+    <string name="tvGame">Wer wird Millionär</string>
+    <string name="tvVolume">Effekte</string>
+    <string name="tvVolume2">Musik</string>
+    <string name="tvColors">Farbschema</string>
+    /*Spinner*/
+    <string-array name="spColors">
+        <item>lightmode</item>
+        <item>darkmode</item>
+        <item>alternatemode</item>
+    </string-array>
 </resources>

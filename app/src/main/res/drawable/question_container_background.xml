@@ -7,7 +7,7 @@
         />
     //give color to our shape
 
-    <solid android:color="#c51f5d"/>
+    <solid android:color="#ba160c"/>
 
     <stroke android:width="3dp"
         android:color="#0846DF"/>

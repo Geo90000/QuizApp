@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgapp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvGame"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal|fill_vertical"
+            android:scaleX="3"
+            android:scaleY="3"
+            android:text="@string/tvGame"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvOption"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal|fill_vertical"
+            android:scaleX="2"
+            android:scaleY="2"
+            android:text="@string/tvMenu"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="300dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="300dp"
+            android:layout_marginRight="300dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/BtnPlay"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#FFFFFF"
+            android:textSize="30sp"
+            app:backgroundTint="#ba160c" />
+
+        <Button
+            android:id="@+id/btnOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="300dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginEnd="300dp"
+            android:layout_marginRight="300dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/BtnOption"
+            android:textSize="30sp"
+            app:backgroundTint="#1497D4" />
+
+        <Button
+            android:id="@+id/btnHighscore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="300dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginEnd="300dp"
+            android:layout_marginRight="300dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/BtnHighscore"
+            android:textSize="30sp"
+            app:backgroundTint="#1497D4" />
+
+        <Button
+            android:id="@+id/btnAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="300dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginEnd="300dp"
+            android:layout_marginRight="300dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/BtnAbout"
+            android:textSize="30sp"
+            app:backgroundTint="#1497D4" />
+
+        <Button
+            android:id="@+id/btnQuit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="300dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginEnd="300dp"
+            android:layout_marginRight="300dp"
+            android:text="@string/BtnQuit"
+            android:textSize="30sp"
+            app:backgroundTint="#1497D4" />
+    </LinearLayout>
+</RelativeLayout>
