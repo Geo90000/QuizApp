@@ -1,13 +1,20 @@
 <resources>
     <string name="app_name">IP2</string>
-    <string name="button.1">Operating System</string>
+
     /*Buttons*/
-    <string name="BtnOption">Optionen</string>
-    <string name="BtnHighscore">Bestenliste</string>
-    <string name="BtnPlay">Spielen</string>
-    <string name="BtnMenu">Hauptmenü</string>
-    <string name="BtnAbout">Über Uns</string>
-    <string name="BtnQuit">Beenden</string>
+    <string name="btnOption">Optionen</string>
+    <string name="btnHighscore">Bestenliste</string>
+    <string name="btnPlay">Spielen</string>
+    <string name="btnMenu">Hauptmenü</string>
+    <string name="btnAbout">Über Uns</string>
+    <string name="btnQuit">Beenden</string>
+
+    /*RadioButtons*/
+    <string name="rbtnA">Operating System</string>
+    <string name="rbtnB">Smart phone</string>
+    <string name="rbtnC">Black OS</string>
+    <string name="rbtnD">Random Access Memory</string>
+
     /*TextViews*/
     <string name="tvMenu">Hauptmenü</string>
     <string name="tvOption">Optionen</string>
@@ -15,6 +22,11 @@
     <string name="tvVolume">Effekte</string>
     <string name="tvVolume2">Musik</string>
     <string name="tvColors">Farbschema</string>
+    <string name="tvScore">Score : 1570 point</string>
+    <string name="tvTotalQuestion">Erste Frage</string>
+    <string name="tvTimer">0:30</string>
+    <string name="tvQuestion">What is Android?</string>
+
     /*Spinner*/
     <string-array name="spColors">
         <item>lightmode</item>
