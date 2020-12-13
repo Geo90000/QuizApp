@@ -16,27 +16,28 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/tvtotalQuestion"
+            android:id="@+id/txttotalQuestion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="370dp"
+            android:layout_marginLeft="40dp"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="240dp"
+            android:layout_marginStart="370dp"
             android:autoSizeTextType="uniform"
-            android:text="@string/tvTotalQuestion"
+            android:text="First Question"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="32sp"
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/btnMenuGame"
+            android:id="@+id/btnMenuSpiel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#0297FA"
-            android:text="@string/btnMenu"
+            android:text="HauptMenu"
             android:textColor="#000"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:backgroundTint="#0297FA"/>
 
     </LinearLayout>
 
@@ -48,35 +49,35 @@
 
 
         <TextView
-            android:id="@+id/tvScore"
+            android:id="@+id/txtScore"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
-            android:text="@string/tvScore"
+            android:text="Score : 1570 point"
             android:textAlignment="center"
             android:textColor="#fff"
             android:textSize="22sp"
             android:textStyle="bold" />
 
         <ImageView
-            android:id="@+id/ivModerator"
+            android:id="@+id/imageView"
             android:layout_width="562dp"
             android:layout_height="150dp"
             android:src="@drawable/moderator2"
             android:layout_marginEnd="130dp"/>
 
         <TextView
-            android:id="@+id/tvTimer"
+            android:id="@+id/txtTimer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="10dp"
-            android:text="@string/tvTimer"
+            android:text="0:30"
+            android:drawableTop="@drawable/ic_baseline_timer_24"
             android:textAlignment="center"
             android:textColor="#fff"
             android:textSize="25sp"
-            android:textStyle="bold"
-            app:drawableTopCompat="@drawable/ic_baseline_timer_24" />
+            android:textStyle="bold" />
 
 
     </LinearLayout>
@@ -88,18 +89,19 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/tvQuestion"
+            android:id="@+id/textView2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:autoSizeTextType="uniform"
             android:background="@drawable/question_container_background"
             android:gravity="center"
-            android:padding="10dp"
-            android:text="@string/tvQuestion"
-            android:textColor="#FFFFFF"
             android:textSize="30sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="what is android ?"
+            android:autoSizeTextType="uniform"
+            />
 
     </LinearLayout>
 
@@ -122,7 +124,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/rbtnA"
+                    android:id="@+id/radio_button"
                     android:layout_width="460dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
@@ -131,13 +133,13 @@
                     android:button="@null"
                     android:freezesText="true"
                     android:padding="12sp"
-                    android:text="@string/rbtnA"
+                    android:text="@string/button.1"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="25sp" />
 
                 <Button
-                    android:id="@+id/rbtnB"
+                    android:id="@+id/radio_button2"
                     android:layout_width="460dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
@@ -145,7 +147,7 @@
                     android:button="@null"
                     android:freezesText="true"
                     android:padding="12sp"
-                    android:text="@string/rbtnB"
+                    android:text="Smart phone"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="25sp" />
@@ -162,7 +164,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/rbtnC"
+                    android:id="@+id/radio_button3"
                     android:layout_width="460dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -171,13 +173,13 @@
                     android:button="@null"
                     android:freezesText="true"
                     android:padding="12sp"
-                    android:text="@string/rbtnC"
+                    android:text="Black OS"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="25sp" />
 
                 <Button
-                    android:id="@+id/rbtnD"
+                    android:id="@+id/radio_button4"
                     android:layout_width="460dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -185,7 +187,7 @@
                     android:button="@null"
                     android:freezesText="true"
                     android:padding="12sp"
-                    android:text="@string/rbtnD"
+                    android:text="Random Access Memory"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="25dp" />

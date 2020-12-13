@@ -11,6 +11,8 @@ public class MainActivity2 extends AppCompatActivity {
 
     public Button buttonPlay;
     public Button buttonOptions;
+    public Button buttonToHighscore;
+    public Button btnQuit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +38,28 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        buttonToHighscore = findViewById(R.id.btnToHighscore);
+
+        buttonToHighscore.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity2.this,MainActivity4.class);
+                startActivity(intent);
+            }
+        });
+
+         btnQuit = (Button)findViewById(R.id.btnQuit);
+        btnQuit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                finish();
+                System.exit(0);
+            }
+        });
+
+
 
     }
 }
