@@ -15,6 +15,33 @@
         android:layout_height="68dp"
         android:orientation="horizontal">
 
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/publikum"
+            app:civ_border_color="#FF000000"
+            android:layout_marginEnd="5dp"
+            app:civ_border_width="2dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="233dp" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/fifty"
+            app:civ_border_color="#FF000000"
+            android:layout_marginEnd="5dp"
+            app:civ_border_width="2dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="233dp" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/phone"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="233dp" />
+
         <TextView
             android:id="@+id/txttotalQuestion"
             android:layout_width="wrap_content"
@@ -22,7 +49,7 @@
             android:layout_marginLeft="40dp"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="240dp"
-            android:layout_marginStart="370dp"
+            android:layout_marginStart="200dp"
             android:autoSizeTextType="uniform"
             android:text="First Question"
             android:textAlignment="center"
@@ -37,7 +64,7 @@
             android:text="HauptMenu"
             android:textColor="#000"
             android:textStyle="bold"
-            android:backgroundTint="#0297FA"/>
+            android:backgroundTint="#3CB371"/>
 
     </LinearLayout>
 

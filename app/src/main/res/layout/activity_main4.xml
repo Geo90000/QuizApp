@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapp"
+    android:orientation="vertical"
+    tools:context=".MainActivity4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/textView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="340dp"
+            android:background="@color/highScoreListBgC"
+            android:gravity="top"
+            android:inputType="textImeMultiLine"
+            android:maxLines="50"
+            android:text="HighScore"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"
+            tools:layout_editor_absoluteX="256dp"
+            tools:layout_editor_absoluteY="298dp" />
+
+        <EditText
+            android:id="@+id/editTextHighscoreList"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="340dp"
+            android:background="@color/highScoreListBgC"
+            android:gravity="top"
+            android:inputType="textImeMultiLine"
+            android:maxLines="50"
+            android:text="1. Max : 4500 Point"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"
+            tools:layout_editor_absoluteX="256dp"
+            tools:layout_editor_absoluteY="298dp" />
+
+        <EditText
+            android:id="@+id/editTextHighscoreList2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="340dp"
+            android:background="@color/highScoreListBgC"
+            android:gravity="top"
+            android:inputType="textImeMultiLine"
+            android:maxLines="50"
+            android:text="2. Max : 4500 Point"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"
+            tools:layout_editor_absoluteX="256dp"
+            tools:layout_editor_absoluteY="298dp" />
+
+        <EditText
+            android:id="@+id/editTextHighscoreList3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="340dp"
+            android:background="@color/highScoreListBgC"
+            android:gravity="top"
+            android:inputType="textImeMultiLine"
+            android:maxLines="50"
+            android:text="3. Max : 4500 Point"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"
+            tools:layout_editor_absoluteX="256dp"
+            tools:layout_editor_absoluteY="298dp" />
+
+        <EditText
+            android:id="@+id/editTextHighscoreList4"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="340dp"
+            android:background="@color/highScoreListBgC"
+            android:gravity="top"
+            android:inputType="textImeMultiLine"
+            android:maxLines="50"
+            android:text="4. Max : 4500 Point"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"
+            tools:layout_editor_absoluteX="256dp"
+            tools:layout_editor_absoluteY="298dp" />
+
+        <EditText
+            android:id="@+id/editTextHighscoreList5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="340dp"
+            android:background="@color/highScoreListBgC"
+            android:gravity="top"
+            android:inputType="textImeMultiLine"
+            android:maxLines="50"
+            android:text="5. Max : 4500 Point"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"
+            tools:layout_editor_absoluteX="256dp"
+            tools:layout_editor_absoluteY="298dp" />
+
+        <EditText
+            android:id="@+id/editTextHighscoreList6"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="340dp"
+            android:background="@color/highScoreListBgC"
+            android:gravity="top"
+            android:inputType="textImeMultiLine"
+            android:maxLines="50"
+            android:text="6. Max : 4500 Point"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"
+            tools:layout_editor_absoluteX="256dp"
+            tools:layout_editor_absoluteY="298dp" />
+
+        <EditText
+            android:id="@+id/editTextHighscoreList7"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="340dp"
+            android:background="@color/highScoreListBgC"
+            android:gravity="top"
+            android:inputType="textImeMultiLine"
+            android:maxLines="50"
+            android:text="7. Max : 4500 Point"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"
+            tools:layout_editor_absoluteX="256dp"
+            tools:layout_editor_absoluteY="298dp" />
+
+        <EditText
+            android:id="@+id/editTextHighscoreList8"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="340dp"
+            android:background="@color/highScoreListBgC"
+            android:gravity="top"
+            android:inputType="textImeMultiLine"
+            android:maxLines="50"
+            android:text="8. Max : 4500 Point"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"
+            tools:layout_editor_absoluteX="256dp"
+            tools:layout_editor_absoluteY="298dp" />
+
+        <EditText
+            android:id="@+id/editTextHighscoreList9"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="340dp"
+            android:background="@color/highScoreListBgC"
+            android:gravity="top"
+            android:inputType="textImeMultiLine"
+            android:maxLines="50"
+            android:text="9. Max : 4500 Point"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"
+            tools:layout_editor_absoluteX="256dp"
+            tools:layout_editor_absoluteY="298dp" />
+
+        <EditText
+            android:id="@+id/editTextHighscoreList10"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="340dp"
+            android:background="@color/highScoreListBgC"
+            android:gravity="top"
+            android:inputType="textImeMultiLine"
+            android:maxLines="50"
+            android:text="10. Max : 4500 Point"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"
+            tools:layout_editor_absoluteX="256dp"
+            tools:layout_editor_absoluteY="298dp" />
+
+        <EditText
+            android:id="@+id/editTextHighscoreList11"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="340dp"
+            android:background="@color/highScoreListBgC"
+            android:gravity="top"
+            android:inputType="textImeMultiLine"
+            android:maxLines="50"
+            android:text="11. Max : 4500 Point"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"
+            tools:layout_editor_absoluteX="256dp"
+            tools:layout_editor_absoluteY="298dp" />
+
+        <EditText
+            android:id="@+id/editTextHighscoreList12"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="340dp"
+            android:background="@color/highScoreListBgC"
+            android:gravity="top"
+            android:inputType="textImeMultiLine"
+            android:maxLines="50"
+            android:text="12. Max : 4500 Point"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"
+            tools:layout_editor_absoluteX="256dp"
+            tools:layout_editor_absoluteY="298dp" />
+
+        <EditText
+            android:id="@+id/editTextHighscoreList13"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="340dp"
+            android:background="@color/highScoreListBgC"
+            android:gravity="top"
+            android:inputType="textImeMultiLine"
+            android:maxLines="50"
+            android:text="13. Max : 4500 Point"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"
+            tools:layout_editor_absoluteX="256dp"
+            tools:layout_editor_absoluteY="298dp" />
+
+        <EditText
+            android:id="@+id/editTextHighscoreList14"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="340dp"
+            android:background="@color/highScoreListBgC"
+            android:gravity="top"
+            android:inputType="textImeMultiLine"
+            android:maxLines="50"
+            android:text="14. Max : 4500 Point"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"
+            tools:layout_editor_absoluteX="256dp"
+            tools:layout_editor_absoluteY="298dp" />
+
+        <EditText
+            android:id="@+id/editTextHighscoreList15"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="340dp"
+            android:background="@color/highScoreListBgC"
+            android:gravity="top"
+            android:inputType="textImeMultiLine"
+            android:maxLines="50"
+            android:text="15. Max : 4500 Point"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"
+            tools:layout_editor_absoluteX="256dp"
+            tools:layout_editor_absoluteY="298dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="68dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/clown_2"
+                android:layout_marginStart="332dp"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="233dp"/>
+
+            <Button
+                android:id="@+id/btnHighScoreListToHaupt"
+                android:layout_width="184dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/BtnMenu"
+                app:backgroundTint="#1497D4" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/clown_3"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="233dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
