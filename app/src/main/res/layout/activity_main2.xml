@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bgapp"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -46,7 +47,7 @@
             android:layout_marginEnd="300dp"
             android:layout_marginRight="300dp"
             android:layout_marginBottom="5dp"
-            android:text="@string/BtnPlay"
+            android:text="@string/btnPlay"
             android:textColor="#FFFFFF"
             android:textColorHighlight="#000000"
             android:textColorLink="#FFFFFF"
@@ -62,7 +63,7 @@
             android:layout_marginEnd="300dp"
             android:layout_marginRight="300dp"
             android:layout_marginBottom="5dp"
-            android:text="@string/BtnOption"
+            android:text="@string/btnOption"
             android:textSize="30sp"
             app:backgroundTint="#1497D4" />
 
@@ -75,7 +76,7 @@
             android:layout_marginEnd="300dp"
             android:layout_marginRight="300dp"
             android:layout_marginBottom="5dp"
-            android:text="@string/BtnHighscore"
+            android:text="@string/btnHighscore"
             android:textSize="30sp"
             app:backgroundTint="#1497D4" />
 
@@ -88,7 +89,7 @@
             android:layout_marginEnd="300dp"
             android:layout_marginRight="300dp"
             android:layout_marginBottom="5dp"
-            android:text="@string/BtnAbout"
+            android:text="@string/btnAbout"
             android:textSize="30sp"
             app:backgroundTint="#1497D4" />
 
@@ -100,7 +101,7 @@
             android:layout_marginLeft="300dp"
             android:layout_marginEnd="300dp"
             android:layout_marginRight="300dp"
-            android:text="@string/BtnQuit"
+            android:text="@string/btnQuit"
             android:textSize="30sp"
             app:backgroundTint="#1497D4" />
     </LinearLayout>
