@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bgapp"
     tools:context=".MainActivity3">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -12,6 +14,7 @@
         android:orientation="vertical"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp">
+
         <TextView
             android:id="@+id/tvGame"
             android:layout_width="match_parent"
@@ -21,6 +24,7 @@
             android:scaleY="3"
             android:text="@string/tvGame"
             android:textColor="#ffffff" />
+
         <TextView
             android:id="@+id/tvOption"
             android:layout_width="match_parent"
@@ -30,76 +34,80 @@
             android:scaleY="2"
             android:text="@string/tvOption"
             android:textColor="#ffffff" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <TextView
                 android:id="@+id/tvVolume"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:layout_marginLeft="20dp"
                 android:gravity="center_horizontal"
                 android:scaleX="1.5"
                 android:scaleY="1.5"
                 android:text="@string/tvVolume"
-                android:textColor="#1497d4"/>
+                android:textColor="#1497d4" />
+
             <SeekBar
                 android:id="@+id/seekBar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="20dp"
-                android:layout_marginRight="20dp" />
+                android:layout_marginEnd="20dp" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <TextView
                 android:id="@+id/tvVolume2"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:layout_marginLeft="20dp"
                 android:gravity="center_horizontal"
                 android:scaleX="1.5"
                 android:scaleY="1.5"
                 android:text="@string/tvVolume2"
                 android:textColor="#ffffff" />
+
             <SeekBar
                 android:id="@+id/seekBar2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="20dp"
-                android:layout_marginRight="20dp" />
+                android:layout_marginEnd="20dp" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="26dp"
             android:orientation="horizontal">
+
             <TextView
                 android:id="@+id/tvColors"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:layout_marginLeft="20dp"
                 android:gravity="center_horizontal"
                 android:scaleX="1.5"
                 android:scaleY="1.5"
                 android:text="@string/tvColors"
                 android:textColor="#ffffff" />
+
             <Spinner
                 android:id="@+id/spColors"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="20dp"
-                android:layout_marginRight="20dp"
                 android:entries="@array/spColors"
                 android:gravity="center_horizontal"
                 android:scaleX="1.5"
                 android:scaleY="1.5" />
         </LinearLayout>
+
         <Button
             android:id="@+id/btnMenu"
             android:layout_width="match_parent"
@@ -108,7 +116,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginEnd="20dp"
             android:layout_marginRight="20dp"
-            android:text="@string/BtnMenu"
+            android:text="@string/btnMenu"
             app:backgroundTint="#1497D4" />
     </LinearLayout>
 </RelativeLayout>

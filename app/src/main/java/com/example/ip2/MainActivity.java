@@ -5,17 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import java.util.Locale;
-import java.util.concurrent.TimeUnit;
-
 public class MainActivity extends AppCompatActivity {
 
-   Button buttonMenuSpiel;
+   Button buttonMenuGame;
    TextView timer;
 
     @Override
@@ -23,9 +19,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        buttonMenuSpiel = findViewById(R.id.btnMenuSpiel);
+        buttonMenuGame = findViewById(R.id.btnMenuGame);
 
-        buttonMenuSpiel.setOnClickListener(new View.OnClickListener() {
+        buttonMenuGame.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,MainActivity2.class);
@@ -33,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        timer = findViewById(R.id.txtTimer);
+        timer = findViewById(R.id.tvTimer);
 
         new CountDownTimer(30000, 1000) {
 
@@ -41,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 timer.setText("" + millisUntilFinished / 1000);
             }
             public void onFinish() {
-                timer.setText("0:00");
+                timer.setText("0");
             }
         }.start();
     }
