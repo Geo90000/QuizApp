@@ -46,25 +46,24 @@
             android:id="@+id/txttotalQuestion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
+            android:layout_marginStart="200dp"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="240dp"
-            android:layout_marginStart="200dp"
             android:autoSizeTextType="uniform"
-            android:text="First Question"
+            android:text="@string/tvTotalQuestion"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="32sp"
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/btnMenuSpiel"
+            android:id="@+id/btnMenuGame"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="HauptMenu"
+            android:backgroundTint="#3CB371"
+            android:text="@string/btnMenu"
             android:textColor="#000"
-            android:textStyle="bold"
-            android:backgroundTint="#3CB371"/>
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -80,7 +79,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
-            android:text="Score : 1570 point"
+            android:text="@string/tvScore"
             android:textAlignment="center"
             android:textColor="#fff"
             android:textSize="22sp"
@@ -94,13 +93,13 @@
             android:layout_marginEnd="130dp"/>
 
         <TextView
-            android:id="@+id/txtTimer"
+            android:id="@+id/tvTimer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="10dp"
-            android:text="0:30"
             android:drawableTop="@drawable/ic_baseline_timer_24"
+            android:text="@string/tvTimer"
             android:textAlignment="center"
             android:textColor="#fff"
             android:textSize="25sp"
@@ -118,17 +117,16 @@
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
-            android:background="@drawable/question_container_background"
-            android:gravity="center"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            android:padding="10dp"
-            android:textColor="#FFFFFF"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="what is android ?"
             android:autoSizeTextType="uniform"
-            />
+            android:background="@drawable/question_container_background"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/tvQuestion"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -160,7 +158,7 @@
                     android:button="@null"
                     android:freezesText="true"
                     android:padding="12sp"
-                    android:text="@string/button.1"
+                    android:text="@string/rbtnA"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="25sp" />
@@ -174,7 +172,7 @@
                     android:button="@null"
                     android:freezesText="true"
                     android:padding="12sp"
-                    android:text="Smart phone"
+                    android:text="@string/rbtnB"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="25sp" />
@@ -200,7 +198,7 @@
                     android:button="@null"
                     android:freezesText="true"
                     android:padding="12sp"
-                    android:text="Black OS"
+                    android:text="@string/rbtnC"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="25sp" />
@@ -214,10 +212,10 @@
                     android:button="@null"
                     android:freezesText="true"
                     android:padding="12sp"
-                    android:text="Random Access Memory"
+                    android:text="@string/rbtnD"
                     android:textAlignment="center"
                     android:textColor="#000"
-                    android:textSize="25dp" />
+                    android:textSize="25sp" />
             </LinearLayout>
 
         </RadioGroup>

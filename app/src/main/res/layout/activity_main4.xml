@@ -274,7 +274,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:text="@string/BtnMenu"
+                android:text="@string/btnMenu"
                 app:backgroundTint="#1497D4" />
 
             <de.hdodenhof.circleimageview.CircleImageView

@@ -10,6 +10,7 @@
     <string name="btnMenu">Hauptmenü</string>
     <string name="btnAbout">Über Uns</string>
     <string name="btnQuit">Beenden</string>
+    <string name="btnMenuGame">Hauptmenü</string>
 
     /*RadioButtons*/
     <string name="rbtnA">Operating System</string>
@@ -25,8 +26,8 @@
     <string name="tvVolume2">Musik</string>
     <string name="tvColors">Farbschema</string>
     <string name="tvScore">Score : 1570 point</string>
-    <string name="tvTotalQuestion">Erste Frage</string>
-    <string name="tvTimer">0:30</string>
+    <string name="tvTotalQuestion">First Question</string>
+    <string name="tvTimer">30</string>
     <string name="tvQuestion">What is Android?</string>
 
     /*Spinner*/
