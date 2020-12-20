@@ -1,8 +1,6 @@
 <resources>
     <string name="app_name">IP2</string>
 
-    <string name="test">test</string>
-
     /*Buttons*/
     <string name="btnOption">Optionen</string>
     <string name="btnHighscore">Bestenliste</string>
