@@ -18,7 +18,7 @@ public class MainActivity4 extends AppCompatActivity {
         setContentView(R.layout.activity_main4);
 
         toMainMenu = findViewById(R.id.btnHighScoreListToHaupt);
-
+         // test comment
         toMainMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
