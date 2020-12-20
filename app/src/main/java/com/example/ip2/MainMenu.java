@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.content.Intent;
 import android.view.View;
 
-public class MainActivity2 extends AppCompatActivity {
+public class MainMenu extends AppCompatActivity {
 
     public Button buttonPlay;
     public Button buttonOptions;
@@ -17,14 +17,14 @@ public class MainActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_main_menu);
 
         buttonPlay = findViewById(R.id.btnPlay);
 
         buttonPlay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity2.this,MainActivity.class);
+                Intent intent = new Intent(MainMenu.this, GameScreen.class);
                 startActivity(intent);
             }
         });
@@ -34,7 +34,7 @@ public class MainActivity2 extends AppCompatActivity {
         buttonOptions.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                Intent intent = new Intent(MainMenu.this, Options.class);
                 startActivity(intent);
             }
         });
@@ -44,7 +44,7 @@ public class MainActivity2 extends AppCompatActivity {
         buttonToHighscore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity2.this,MainActivity4.class);
+                Intent intent = new Intent(MainMenu.this, Highscore.class);
                 startActivity(intent);
             }
         });

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/bgapp"
     android:orientation="vertical"
-    tools:context=".MainActivity4">
+    tools:context=".Highscore">
 
     <LinearLayout
         android:layout_width="match_parent"
